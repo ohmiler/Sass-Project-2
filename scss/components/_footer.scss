@@ -1,0 +1,30 @@
+footer {
+    padding: 2rem 0;
+    background: #333;
+
+    .footer-container {
+        display: flex;
+
+        .footer-items {
+            width: 100%;
+            color: #fff;
+            h1 {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            p {
+                margin-top: 2rem;
+                font-size: 1.3rem;
+
+                i {
+                    color: #ffd57b;
+                }
+            }
+
+            img {
+                width: 60%;
+            }
+        }
+    }
+}

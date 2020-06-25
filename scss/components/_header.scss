@@ -1,0 +1,84 @@
+header {
+    height: 800px;
+    background: url('/img/banner.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    nav {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 10;
+
+        .logo h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .menu {
+            display: flex;
+
+            li {
+                margin: 0 2rem;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    border-bottom: 2px solid transparent;
+                    transition: 0.3s;
+
+                    &:hover {
+                        padding-bottom: .5rem;
+                        border-bottom: 2px solid #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .header-wrapper {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 600px;
+
+        .header-info {
+            width: 800px;
+            color: #fff;
+            h1 {
+                font-size: 4rem;
+                font-weight: bold;
+            }
+            p {
+                margin-top: 1rem;
+                line-height: 1.5;
+            }
+            a {
+                @extend .base-btn;
+                margin-top: 1rem;
+                transition: 0.5s;
+
+                &:hover {
+                    background: #fff;
+                }
+            }
+        }
+    }
+}

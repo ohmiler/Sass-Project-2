@@ -1,0 +1,36 @@
+// Fonts
+@import 'fonts/fonts';
+
+// Reset 
+@import 'reset/reset';
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+// base btn
+.base-btn {
+    background: #ffd57b;
+    padding: 1rem 1.5rem;
+    color: #000;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+// components
+@import 'components/header';
+@import 'components/about';
+@import 'components/ourfriends';
+@import 'components/help';
+@import 'components/donation';
+@import 'components/footer';
+@import 'components/responsive768';
+@import 'components/responsive480';

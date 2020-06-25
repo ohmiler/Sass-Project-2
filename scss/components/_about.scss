@@ -1,0 +1,26 @@
+.about {
+    padding: 5rem 0;
+
+    .about-container {
+        display: flex;
+
+        .about-left {
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+
+        .about-right {
+            width: 50%;
+            h1 {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            p {
+                line-height: 1.5;
+                margin-top: 2rem;
+            }
+        }
+    }
+}

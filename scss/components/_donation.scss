@@ -1,0 +1,39 @@
+.donation {
+    padding: 3rem 0;
+    background: #f5f5f5;
+
+    .donation-container {
+        display: flex;
+
+        .donation-left {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+        .donation-right {
+            width: 50%;
+
+            h3 {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            p {
+                margin-top: 1rem;
+            }
+            .card {
+                width: 350px;
+                letter-spacing: 5px;
+                background: #ffd57b;
+                padding: 1rem 1.5rem;
+            }
+            .small {
+                font-style: italic;
+                line-height: 1.5;
+                color: #ccc;
+            }
+        }
+    }
+}

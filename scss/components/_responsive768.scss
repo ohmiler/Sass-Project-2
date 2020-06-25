@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+    header {
+        overflow: hidden;
+
+        nav {
+            margin-top: 2rem;
+            flex-direction: column;
+        }
+
+        .header-info {
+            padding: 0 2rem;
+        }
+    }
+
+    .about-container {
+        flex-direction: column;
+
+        .about-left {
+            width: 100% !important;
+            text-align: center;
+
+            img {
+                width: 50% !important;
+            }
+        }
+        .about-right {
+            width: 100% !important;
+            text-align: center;
+
+            .about-info {
+                margin-top: 1rem;
+                padding: 0 2rem;
+            }
+        }
+    }
+
+    .our-friends-items {
+        width: 85% !important;
+    }
+
+    .help-title {
+        h1 {
+            font-size: 2rem !important;
+        }
+    }
+    .help-items {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+    .donation-container {
+        flex-direction: column;
+
+        .donation-left {
+            width: 100% !important;
+            text-align: center;
+
+            img {
+                width: 50% !important;
+            }
+        }
+        .donation-right {
+            width: 100% !important;
+
+            .donation-info {
+                padding: 0 3rem;
+            }
+        }
+    }
+
+    .footer-container {
+        padding: 0 2rem;
+        text-align: center;
+
+        .footer-items {
+            h1 {
+                font-size: 1.5rem !important;
+            }
+        }
+    }
+}
